@@ -8,10 +8,14 @@
 }
 
 .header {
+  font-size: 1.4rem; //any child componenets in the header will inherit from this
   height: 7rem;
   background-color: #fff;
   border-bottom: var(--color-grey-light-2);
 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .content {
@@ -26,7 +30,7 @@
 
 .hotel-view {
   background-color: #fff;
-  background-color: orange;
+  background-color: orangered;
 
   flex: 1; // this is telling flex to take up the whole width
 
