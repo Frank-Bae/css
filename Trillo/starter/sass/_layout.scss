@@ -26,11 +26,16 @@
 .sidebar {
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%; // this is only occupying 18% and not telling it grow or shrink
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .hotel-view {
   background-color: #fff;
   background-color: orangered;
+  height: 80rem;
 
   flex: 1; // this is telling flex to take up the whole width
 
