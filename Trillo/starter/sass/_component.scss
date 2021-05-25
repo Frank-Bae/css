@@ -10,7 +10,6 @@
 ////////////////////////////////////////////
 // SEARCH
 .search {
-  background-color: orangered;
   flex: 0 0 40%;
 
   display: flex;
@@ -198,4 +197,51 @@
   color: var(--color-grey-light-4);
   text-align: center;
   padding: 2.5rem;
+}
+
+
+///////////////////////
+// GALLERY
+.gallery {
+  display: flex;
+  &__photo {
+    width: 100%;
+    display: block;
+  }
+
+
+}
+
+
+///////////////////////
+// HOTEL OVERVIEW
+.overview {
+  &__heading {
+
+  }
+
+  &__stars {
+
+  }
+
+  &__icon-star,
+  &__icon-location {
+
+  }
+
+  &__location {
+
+  }
+
+  &__rating {
+
+  }
+
+  &__rating-average {
+
+  }
+
+  &__rating-count {
+
+  }
 }
