@@ -35,8 +35,29 @@
 .hotel-view {
   background-color: #fff;
   // background-color: orangered;
-  height: 80rem;
+  // height: 80rem;
 
   flex: 1; // this is telling flex to take up the whole width
 
+}
+
+.detail {
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-grey-light-1);
+  border-bottom: var(--line);
+}
+
+.description {
+  font-size: 1.4rem;
+  flex: 0 0 60%; // flex grow 0, flex shirnk 0, flex basis 60%
+  background-color: #fff;
+  padding: 3rem;
+  box-shadow: var(--shadow-light);
+  margin-right: 4.5rem;
+}
+
+.user-reviews {
+  background-color: yellow;
+  flex: 1; //occupy the remaining space
 }
