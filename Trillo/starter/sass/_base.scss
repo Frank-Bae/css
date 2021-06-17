@@ -36,9 +36,11 @@ Grey dark 3: #999
   --line: 1px solid var(--color-grey-light-2);
 }
 
-//media queries
+//media queries width size / 16px
 $bp-largest: 75rem; //1200px
 $bp-large: 68.75rem; //1100px
+$bp-medium: 56.75rem; //900px
+$bp-small: 37.5rem; //600px
 
 * {
   margin: 0;
